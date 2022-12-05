@@ -6,7 +6,6 @@
  * Return: 1 if success, 0 if not palindrome
  */
 
-
 int is_palindrome(listint_t **head)
 {
 	listint_t *fast = *head, *half = *head;
@@ -14,7 +13,8 @@ int is_palindrome(listint_t **head)
 	if (!*head || !(*head)->next)
 		return (1);
 
-	while (half && fast && fast->next)	{
+	while (half && fast && fast->next)
+	{
 		half = half->next;
 		fast = fast->next->next;
 	}
