@@ -1,7 +1,7 @@
 #!/usr/bin/python3
 """
 Python script that takes in a letter
-and sends a POST request
+and sends POST request
 """
 from sys import argv
 import requests
